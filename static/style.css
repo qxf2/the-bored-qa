@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    background-image: url("background.jpg");
+    background-size:cover;
+  }
+  .quote_div {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 25px 5px;
+    margin: 15% auto auto;
+  }
