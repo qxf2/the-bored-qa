@@ -1,11 +1,24 @@
 <!doctype html>
 <html>
+
+<head>
+    <title>The Bored QA</title>
+    <!-- Bootstrap -->
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans:400,600" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="/static/style.css" rel="stylesheet">
+</head>
+
 <body>
     <form action='/' method="post">
-        <button name="forwardBtn" type="submit">Surprise Me!</button>
+        <p class="text-center top-space-40" >            
+            <button name="quote" class="block" type="submit">Surprise Me!</button></p>
     </form>
     <div class="quote_div">
-            {{ quote }}
+           <h1> {{ quote }}</h1>
     </div>
   
 <body>
