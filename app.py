@@ -7,6 +7,7 @@ from flask import Flask
 import random
 import csv
 
+
 #Importing render_template to include html files and css.
 from flask import render_template
 
@@ -14,6 +15,10 @@ from flask import render_template
 app = Flask(__name__)
 
 #Route the application to go to a specific path.
+@app.route("/")
+def index():
+    return render_template("quotes.html")
+
 @app.route("/",methods=['POST'])
 def get_quotes():
     with open('quotes.csv','r') as csv_file: #Opens the file in read mode
