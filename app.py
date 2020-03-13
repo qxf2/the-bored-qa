@@ -20,23 +20,19 @@ app = Flask(__name__)
 def index():
     return render_template("quotes.html")
 
+    
 @app.route("/",methods=['POST'])
-def get_quotes():
-    with open('quotes.csv','r') as csv_file: #Opens the file in read mode
-        csv_reader = csv.reader(csv_file,delimiter='#')
-        data = random.choice (list(csv_reader))
-        selected_quote=''.join(data)
-    
-    # Pass the selected quote to the template.
-    return render_template('quotes.html',quote=selected_quote)
-    
-@app.route("/read",methods=['POST'])
 def read_json():
-    f = open('situational_questions.json')
-    data = json.load(f)
-    for i in data:
-        print (i)
-        return render_template('quotes.html',quote=i)
+    with open ('situational_questions.json') as f:
+        data = json.load(f)    
+        questions=data["situational_questions"]
+        random_index=random.choice(questions)
+        question=random_index["question"] 
+        
+    return render_template('quotes.html',question=question)
+
+
+
 #'app' is the instance for the Flask application.Run the application in a particular port!!
 if __name__=='__main__' :
     app.run(host='0.0.0.0', port=5000, debug= True)
