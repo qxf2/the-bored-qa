@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    background-size:cover;
+  }
+  
+.quote_div{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+  .block {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin: 100px 0px;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+  }
+
+  .block:hover {
+    background-color: #ddd;
+    color: black;
+  }
