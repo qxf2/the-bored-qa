@@ -6,7 +6,8 @@ The Bored QA
 from flask import Flask
 import random
 import csv
-
+import json
+from flask import request
 
 #Importing render_template to include html files and css.
 from flask import render_template
@@ -19,16 +20,17 @@ app = Flask(__name__)
 def index():
     return render_template("quotes.html")
 
+    
 @app.route("/",methods=['POST'])
-def get_quotes():
-    with open('quotes.csv','r') as csv_file: #Opens the file in read mode
-        csv_reader = csv.reader(csv_file,delimiter='#')
-        data = random.choice (list(csv_reader))
-        selected_quote=''.join(data)
-    
-    # Pass the selected quote to the template.
-    return render_template('quotes.html',quote=selected_quote)
-    
+def read_json():
+    with open ('situational_questions.json') as f:
+        data = json.load(f)    
+        questions=data["situational_questions"]
+        random_index=random.choice(questions)
+        question=random_index["question"] 
+        
+    return render_template('quotes.html',question=question)
+
 
 
 #'app' is the instance for the Flask application.Run the application in a particular port!!
