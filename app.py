@@ -8,6 +8,7 @@ import random
 import csv
 import json
 from flask import request
+import open_questions
 
 #Importing render_template to include html files and css.
 from flask import render_template
@@ -23,11 +24,17 @@ def index():
     
 @app.route("/",methods=['POST'])
 def read_json():
+    files = []
     with open ('situational_questions.json') as f:
         data = json.load(f)    
-        questions=data["situational_questions"]
-        random_index=random.choice(questions)
-        question=random_index["question"] 
+        situational_questions = data["situational_questions"]
+        files.append(situational_questions)
+    
+    # Include open questions
+    files.append(open_questions.questions)
+    chosen_file = random.choice(files)
+    questions = random.choice(chosen_file) 
+    question = questions['question'] 
         
     return render_template('quotes.html',question=question)
 
