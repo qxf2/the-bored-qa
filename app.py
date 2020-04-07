@@ -9,6 +9,7 @@ import csv
 import json
 from flask import request
 import open_questions
+import explain_me
 
 #Importing render_template to include html files and css.
 from flask import render_template
@@ -24,6 +25,7 @@ def index():
     
 @app.route("/",methods=['POST'])
 def read_json():
+    "Read json or other questions files"
     files = []
     with open ('situational_questions.json') as f:
         data = json.load(f)    
@@ -32,11 +34,18 @@ def read_json():
     
     # Include open questions
     files.append(open_questions.questions)
+
+    # Include explain me questions
+    files.append(explain_me.common_commands_list)
+
     chosen_file = random.choice(files)
     questions = random.choice(chosen_file) 
     question = questions['question'] 
-        
-    return render_template('quotes.html',question=question)
+
+    # Get the question type or set None if no type found
+    question_type = questions.get('type',None)
+
+    return render_template('quotes.html',question=question,question_type=question_type)
 
 
 
