@@ -10,6 +10,7 @@ import json
 from flask import request
 import open_questions
 import explain_me
+import architecture_diagrams
 
 #Importing render_template to include html files and css.
 from flask import render_template
@@ -38,10 +39,15 @@ def read_json():
     # Include explain me questions
     files.append(explain_me.common_commands_list)
 
+    # Include the architectural diagrams questions
+    files.append(architecture_diagrams.diagrams)
+    
     chosen_file = random.choice(files)
     questions = random.choice(chosen_file) 
-    question = questions['question'] 
-
+    question = questions.get('question',None)
+    if not question:
+        question = questions['image_url']
+    print(question)
     # Get the question type or set None if no type found
     question_type = questions.get('type',None)
 
