@@ -28,3 +28,9 @@ body {
     background-color: #ddd;
     color: black;
   }
+
+ img {
+    height: 20%;
+    max-width: 100%;
+    display: block;
+    }
