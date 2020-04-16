@@ -13,14 +13,26 @@
 </head>
 
 <body>
+    
+    <div class="text-center">
+            {% if question_type == 'explain-me' %}
+		    <span class="d-inline bg-success text-center">What would this command do?</span>
+		    <h1 class="text-center"> {{ question }}</h1>
+            {% elif question_type == 'block' %}
+            
+	    	    <div class="row text-center">
+                    <div class="col-sm-8 col-md-8 col-lg-6">
+			    <img class="img-responsive fit-image" src={{ question }} />
+                    </div>
+                    </div>
+            {% else %}
+	    	    <h1 class="text-center"> {{question}}</h1>
+	    {% endif %}
+    </div>
     <form action='/' method="post">
         <p class="text-center" >            
             <button name="quote" class="block" type="submit">Surprise Me!</button></p>
     </form>
-
-    <div class="questions text-center">
-           <h1> {{ question }}</h1>
-    </div>
   
 <body>
 </html>
