@@ -47,7 +47,7 @@ def read_json():
     question = questions.get('question',None)
     if not question:
         question = questions['image_url']
-    print(question)
+    
     # Get the question type or set None if no type found
     question_type = questions.get('type',None)
 
