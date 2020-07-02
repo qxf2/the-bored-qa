@@ -1,0 +1,20 @@
+{% extends "base.html" %} {% block content %}
+<div class="splash-container">
+    <div class="splash">
+        <p class="challenge-metadata">Explain this command in English</p>
+        <h2 class="explain-me-head">{{ challenge.question }}</h2>
+        <span>
+            <a class="challenge-metadata" href="{{ challenge.src }}">Source</a>
+        </span>
+        <span>&nbsp;&nbsp;&nbsp;</span>
+        <span>
+            <a class="challenge-metadata" onclick="toggleInstructions('instructions')" href="#">What am I expected to do?</a>
+        </span>
+        <div id="instructions" style="display: none;">
+            <p class="instructions">Explain the command in plain English. How skill is this useful to a tester? We noticed that testers (especially me!) run into all sorts of setup issues when we start a new project. We usually ask for help but we ask for help poorly because we lack the vocabulary to describe what command we ran and what error we faced. Unless we had already established credibility in the eyes of the helper, the person helping us begins doubting our technical capabilities. This exercise is to help testers verbalize technical commands better. As an added bonus, you will be developing a crucial skill in mentoring junior testers! If you find this exercise boring, simply hit the 'Challenge Me' button to do to try a new challenge.</p>
+        </div>
+        {% include 'challenge_button.html' %}
+        {% include 'copyright.html' %}
+    </div>
+</div>
+{% endblock %}

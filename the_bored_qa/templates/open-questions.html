@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% block content %}
+<div class="splash-container">
+    <div class="splash">
+        <p class="challenge-metadata">The curious cat</p>
+        <h2 class="content-head">{{ challenge.question }}</h2>
+        <p class="challenge-metadata">Example applications: {{ challenge.example_apps }}</p>
+        <span>
+            <a class="challenge-metadata" onclick="toggleInstructions('instructions')" href="#">What am I expected to do?</a>
+        </span>
+        <div id="instructions" style="display: none;">
+            <p class="instructions">Think about the question being asked. Then, Google around for solutions. Why do we have this class of exercise? To expand our horizons and remain curious. We use so many software applications through the day. But we rarely stop to wonder how the different features are being tested. We rarely pause to think about how we would go about testing these features. By doing this exercise, hopefully, you will be a bit more curious and your explorations will lead you to new lands! If you find this exercise boring, simply hit the 'Challenge Me' button to do to try a new challenge.</p>
+        </div>
+        {% include 'challenge_button.html' %}
+        {% include 'copyright.html' %}
+    </div>
+</div>
+{% endblock %}

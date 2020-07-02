@@ -1,0 +1,49 @@
+{
+    "challenges": [
+        {
+            "type": "bug",
+            "src": "https://github.com/notepad-plus-plus/notepad-plus-plus/issues/7995",
+            "description": "Notepad++ crashes when trying 'replace in files'"
+        },
+        {
+            "type": "bug",
+            "src": "https://issues.jenkins-ci.org/browse/JENKINS-61171?jql=project%20%3D%20JENKINS%20AND%20component%20%3D%20jiratestresultreporter-plugin",
+            "description": "The JiraTestReporter plugin stopped working"
+        },
+        {
+            "type": "bug",
+            "src": "https://discuss.circleci.com/t/cache-paths-changed-in-2-1/34596",
+            "description": "CircleCI cache path doesn't work when using ~"
+        },
+        {
+            "type": "bug",
+            "src": "https://github.com/sharkdp/bat/issues/858",
+            "description": "Git Bash not reading system clipboard"
+        },
+        {
+            "type": "bug",
+            "src": "https://bugs.mysql.com/bug.php?id=98516",
+            "description": "MySQL Workbench blurs result grid during horizontal scrolling"
+        },
+        {
+            "type": "bug",
+            "src": "https://support.google.com/docs/thread/3847705?hl=en",
+            "description": "The comment button goes missing in Google Docs "
+        },
+        {
+            "type": "bug",
+            "src": "https://support.google.com/drive/thread/9186304?hl=en",
+            "description": "Deleting trash doesn't work on Google Drive"
+        },
+        {
+            "type": "bug",
+            "src": "https://support.google.com/hangouts/thread/10473772?hl=en",
+            "description": "Mic and audio stop working abruptly during a Hangout call"
+        },
+        {
+            "type": "bug",
+            "src": "https://github.com/microsoft/vscode/issues/92126",
+            "description": "Debug view is sometimes not working in VS Code"
+        }
+    ]
+}

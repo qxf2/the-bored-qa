@@ -1,0 +1,114 @@
+{
+    "challenges": [
+        {
+            "type": "open-question",
+            "question": "How do you test the emoticons are displayed across different platforms correctly?",
+            "example_apps": [
+                "Skype",
+                "Slack",
+                "MS Teams"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How do I test recording?",
+            "example_apps": [
+                "GoogleHangouts",
+                "MS Teams"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How do you test 'block user' functionality in a chat app?",
+            "example_apps": [
+                "Skype",
+                "Slack"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "Does the recording pick up the background noise from one of the participant?",
+            "example_apps": [
+                "GoogleHangouts",
+                "MS Team"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How do you test a video call application temporarily disables video for someone who has high latency?",
+            "example_apps": [
+                "GoogleHangouts",
+                "MS Team"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How does a word processing application hande mulitple people editing the same line at the same time?",
+            "example_apps": [
+                "Google Docs",
+                "MS Office"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How does a CI/CD tool handle a queue of events that trigger a test?",
+            "example_apps": [
+                "Jenkins",
+                "Circle CI"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How do you check the plugin's compatibility for a platform that changes frequently?",
+            "example_apps": [
+                "Chrome",
+                "Firefox",
+                "Jenkins"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How do you test if the search returns the right results on chat platforms?",
+            "example_apps": [
+                "Skype",
+                "Slack",
+                "MS Teams"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How does the video chat application knows there is latency in a connection?",
+            "example_apps": [
+                "Skype",
+                "Slack",
+                "MS Teams"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How are the messages ordered in a group chat? messages first sent to the application server are listed first? messages recieved at the server are listed first?",
+            "example_apps": [
+                "Skype",
+                "Slack",
+                "MS Teams"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How do you test calendar events sent to people across different time zones?",
+            "example_apps": [
+                "Google",
+                "Outlook"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "IDEs support multiple languages. How do you test for each one of them?",
+            "example_apps": [
+                "VS Code",
+                "Notepad",
+                "SublimeText"
+            ]
+        }
+    ]
+}
