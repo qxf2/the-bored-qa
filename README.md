@@ -6,6 +6,9 @@ I'd like a site that throws up challenges that make testers think deeper about t
 
 I don't really care if the user 'solves' the problem as much as they think, then Google and see what other people do. If it leads to discussion within a team, then great!
 
+__Setup__
+This is a super-standard Flask app. Create a virtual environment, install the requirements, then `python run.py` to start the application.
+
 __Example questions__
 
 a) How do you test a screen sharing functionality of Google Hangouts 
@@ -36,3 +39,4 @@ __Background__
 A while ago, @rajigali  pointed out that we rarely talk about testing or even encourage exercises around testing. We are one derivative away from testing in that we work a lot with code that will eventually be used to test. But we are not attacking testing directly. 
 
 This bias shows in many ways and affects our hiring, interviewing and sense of accomplishment within Qxf2. While there are multiple genuine reasons for this bias, it has been nagging me that we never directly focus on testing. This is our first attempt at a tool to solve this problem.
+
