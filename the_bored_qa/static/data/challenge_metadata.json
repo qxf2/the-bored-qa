@@ -1,0 +1,29 @@
+{
+    "challenges_meta": [
+        {
+            "type": "situational-question",
+            "template": "situational-questions.html",
+            "data": "situational_questions.json"
+        },
+        {
+            "type": "explain-me",
+            "template": "explain-me.html",
+            "data": "explain_me.json"
+        },
+        {
+            "type": "block-diagram",
+            "template": "block-diagrams.html",
+            "data": "block_diagrams.json"
+        },
+        {
+            "type": "open-question",
+            "template": "open-questions.html",
+            "data": "open_questions.json"
+        },
+        {
+            "type": "bug",
+            "template": "bugs.html",
+            "data": "bugs.json"
+        }
+    ]
+}

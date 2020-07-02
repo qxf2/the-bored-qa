@@ -1,0 +1,20 @@
+{% extends "base.html" %} {% block content %}
+<div class="splash-container">
+    <div class="splash">
+        <p class="challenge-metadata">From the Internet</p>
+        <h2 class="content-head">{{ challenge.question }}</h2>
+        <span>
+            <a class="challenge-metadata" href="{{ challenge.src }}">Source</a>
+        </span>
+        <span>&nbsp;&nbsp;&nbsp;</span>
+        <span>
+            <a class="challenge-metadata" onclick="toggleInstructions('instructions')" href="#">What am I expected to do?</a>
+        </span>
+        <div id="instructions" style="display: none;">
+            <p class="instructions">We are showing you a question from popular software testing forums/feeds online. We give this class of exercise to help you better organize your arguments and solutions while also sparking interesting conversations with your QA colleagues. Think about the questions on your own and/or discuss it with your colleagues. The goal is not arrive at an answer or even agree with the premise of the question. Our hope, instead, is that you practice verbalizing your ideas and disagreements. When you are done thinking/discussing, click on the source link and read the discussion there. Pay attention to the words being used and the variety of view points presented. If you find this exercise boring, simply hit the 'Challenge Me' button to do to try a new challenge.</p>
+        </div>
+        {% include 'challenge_button.html' %}
+        {% include 'copyright.html' %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block content %}
+<div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head">🤦 Uh oh! </h1>
+        <p class="splash-subhead">
+            We handled your last request poorly. Please try again.
+        </p>
+        {% include 'challenge_button.html' %}
+        {% include 'copyright.html' %}
+    </div>
+</div>
+{% endblock %}

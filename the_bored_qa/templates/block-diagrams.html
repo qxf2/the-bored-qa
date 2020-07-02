@@ -1,0 +1,43 @@
+{% extends "base.html" %} {% block content %}
+<div class="splash-container">
+    <div class="img-splash">
+        <div class="pure-g">
+            <div class="pure-u-2-3">
+                <img class="block-diagram-img" src="{{ challenge.image_url }}"></img>
+            </div>
+            <div class="pure-u-1-3">
+                <h2 class="content-head">
+                    👈 What's going on in this image?</h2>
+                        <span>
+                            <a class="challenge-metadata" href="{{ challenge.src }}">Source</a>
+                        </span>
+                        <span>&nbsp;&nbsp;&nbsp;</span>
+                        <span>
+                            <a class="challenge-metadata" onclick="toggleInstructions('instructions')" href="#">What am
+                                I expected to
+                                do?</a>
+                        </span>
+                        <div id="instructions" style="display: none;">
+                            <p class="instructions">Think about what is being communicated in the block diagram. Do not
+                                spend more than
+                                5-minutes. Think about how you would start thinking about testing what is represented in
+                                the diagram
+                                above. Then read the article in the source to check your understanding. Why is being
+                                able to grok
+                                technical diagrams important to testers? Because it lets us participate early and at a
+                                higher level of
+                                abstraction also. As testers, we seem to be good at participating in highly detailed
+                                oriented
+                                discussions. But we should try to participate in imagining the evolution of the product
+                                and the
+                                architectural trade-offs being made. If
+                                you find this exercise boring, simply hit the 'Challenge Me' button to do to try a new
+                                challenge.</p>
+                        </div>
+                        {% include 'challenge_button.html' %}
+                        {% include 'copyright.html' %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

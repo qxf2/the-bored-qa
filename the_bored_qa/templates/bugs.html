@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% block content %}
+<div class="splash-container">
+    <div class="splash">
+        <p class="challenge-metadata">Everyone has bugs</p>
+        <h2 class="content-head"><a href="{{ challenge.src}}">{{ challenge.description }}</a></h2>
+        <span>
+            <a class="challenge-metadata" onclick="toggleInstructions('instructions')" href="#">What am I expected to
+                do?</a>
+        </span>
+        <div id="instructions" style="display: none;">
+            <p class="instructions">We are showing you a bug report filed against a world class software application that millions of people use. Read through the bug report and think of why it happened, how you might have caught the issue and if you can get any new testing ideas. If you find this exercise boring, simply hit the 'Challenge Me' button to do to try a new challenge. </p>
+        </div>
+        {% include 'challenge_button.html' %}
+        {% include 'copyright.html' %}
+    </div>
+</div>
+{% endblock %}
