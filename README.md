@@ -7,6 +7,7 @@ I'd like a site that throws up challenges that make testers think deeper about t
 I don't really care if the user 'solves' the problem as much as they think, then Google and see what other people do. If it leads to discussion within a team, then great!
 
 __Setup__
+
 This is a super-standard Flask app. Create a virtual environment, install the requirements, then `python run.py` to start the application.
 
 __Example questions__
