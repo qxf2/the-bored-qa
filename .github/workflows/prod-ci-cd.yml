@@ -6,7 +6,7 @@
 #---------------------------------------------------------------------
 name: CI-CD-Pipeline-to-AWS-ElasticBeanstalk
 env:
-  EB_PACKAGE_S3_BUCKET_NAME : "the-bored-qa"
+  EB_PACKAGE_S3_BUCKET_NAME : "the-bored-qa-repo"
   EB_APPLICATION_NAME       : "the-bored-qa"
   EB_ENVIRONMENT_NAME       : "TheBoredQa-env"
   DEPLOY_PACKAGE_NAME       : "the-bored-qa-${{ github.sha }}.zip"
