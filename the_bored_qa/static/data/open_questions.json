@@ -112,11 +112,11 @@
         },
         {
             "type": "open-question",
-            "question": "Google Earth has lots of features . How do you test the view/zoom location feature?",
+            "question": "Google Earth has so many features. How do you test view/zoom location/image feature ?",
             "example_apps": [
-                "VS Code",
-                "Notepad",
-                "SublimeText"
-            ]
+                "Google",
+                "Earth"
+                            ]
+        }
     ]
 }
