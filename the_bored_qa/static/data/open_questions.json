@@ -95,6 +95,20 @@
         },
         {
             "type": "open-question",
+            "question": "I liked the utility future bug predictor and usage of machine learning in predicting bug. How do you test the feature of predicting the bugs such as there will be 5 bugs in next release.",
+            "example_apps": [
+                "Atlassian"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "@linkedin,I like the feature views of your post, to know how many views you have received, I was wondering how do you test the integration of this feature with external sources such blogs, tweeter etc..?",
+            "example_apps": [
+                "Linkedin"
+            ]
+        },
+        {
+            "type": "open-question",
             "question": "How do you test calendar events sent to people across different time zones?",
             "example_apps": [
                 "Google",
