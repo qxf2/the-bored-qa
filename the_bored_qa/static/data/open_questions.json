@@ -109,6 +109,13 @@
                 "Notepad",
                 "SublimeText"
             ]
+        },
+        {
+            "type": "open-question",
+            "question": "How does one test the smart draw features like eraser and the limit of branching in mindmaps feature, in remote whiteboards?",
+            "example_apps": [
+                "Miro"
+                ]
         }
     ]
 }
