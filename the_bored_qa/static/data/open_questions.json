@@ -109,6 +109,15 @@
                 "Notepad",
                 "SublimeText"
             ]
+        },
+        {
+            "type": "open-question",
+            "question": "Social media apps provide many face filters and lenses. How do we go about testing these?",
+            "example_apps": [
+                "Snapchat",
+                "Instagram",
+                "Facebook"
+            ]
         }
     ]
 }
