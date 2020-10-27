@@ -139,6 +139,13 @@
                 "Whatsapp",
                 "Facebook"
             ]
+        },
+        {
+            "type": "open-question",
+            "question": "How do you test a feature in which the way VR controller handles the sensors and differentiates movement, speed.",
+            "example_apps": [
+                "Oculus Rift"
+            ]
         }
     ]
 }
