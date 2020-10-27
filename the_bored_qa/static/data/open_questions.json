@@ -109,6 +109,14 @@
                 "Notepad",
                 "SublimeText"
             ]
+        },
+        {
+            "type": "open-question",
+            "question": "How do you test the words when pronunciation is different for other regions?",
+            "example_apps": [
+                "Google",
+                "Google voice search"
+            ]
         }
     ]
 }
