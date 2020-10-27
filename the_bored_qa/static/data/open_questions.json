@@ -109,6 +109,14 @@
                 "Notepad",
                 "SublimeText"
             ]
-        }
+        },
+        {
+            "type": "open-question",
+            "question": "Google Earth has lots of features . How do you test the view/zoom location feature?",
+            "example_apps": [
+                "VS Code",
+                "Notepad",
+                "SublimeText"
+            ]
     ]
 }
