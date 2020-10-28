@@ -124,7 +124,21 @@
             "question": "How does one test the smart draw features like eraser and the limit of branching in mindmaps feature, in remote whiteboards?",
             "example_apps": [
                 "Miro"
-                ]
-            }
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "When you create overview videos, how do you know to pick the relevant photos (For example, it ignores document images, blurred images etc.)",
+            "example_apps": [
+                "Google Photos"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How do you test that the suggested videos are relevant. Can it be done using automated testing?",
+            "example_apps": [
+                "YouTube"               
+            ]
+        }
     ]
 }
