@@ -127,9 +127,16 @@
         },
         {
             "type": "open-question",
-            "question": "I regularly use #GoogleMeet.Recently I have used the Turn-on Captions feature How to see its ability to capture some of the things as words even though we spell out letters e.g my company name QxF2.As a testers,I am wondering how do we test this feature with complex and variety of inputs ?",
+            "question": "I regularly use #GoogleMeet.Recently I have used the Turn-on Captions feature How to see its ability to capture some of the things as words even though we spell out letters e.g my company name QxF2. As a tester, I am wondering how do we test this feature with complex and variety of inputs ?",
             "example_apps": [
                 "GoogleMeet"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "When you create overview videos, how do you know to pick the relevant photos (For example, it ignores document images, blurred images etc.)",
+            "example_apps": [
+                "Google Photos"
             ]
         },
         {
@@ -145,6 +152,13 @@
             "question": "How do you test a feature in which the way VR controller handles the sensors and differentiates movement, speed.",
             "example_apps": [
                 "Oculus Rift"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How do you test that the suggested videos are relevant. Can it be done in an automated way?",
+            "example_apps": [
+                "YouTube"
             ]
         }
     ]
