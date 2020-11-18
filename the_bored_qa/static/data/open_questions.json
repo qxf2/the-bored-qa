@@ -108,6 +108,22 @@
                 "Notepad",
                 "SublimeText"
             ]
-        }
+        },
+        {
+            "type": "open-question",
+            "question": "Social media apps provide many face filters and lenses. How do we go about testing these?",
+            "example_apps": [
+                "Snapchat",
+                "Instagram",
+                "Facebook"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How does one test the smart draw features like eraser and the limit of branching in mindmaps feature, in remote whiteboards?",
+            "example_apps": [
+                "Miro"
+                ]
+            }
     ]
 }
