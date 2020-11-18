@@ -108,21 +108,6 @@
                 "Notepad",
                 "SublimeText"
             ]
-        },
-        {
-            "type": "open-question",
-            "question": "I regularly use #GoogleMeet.Recently I have used the Turn on Captions feature How do see its ability to capture some of the things as words even though we spell out letters e.g my company name QxF2.As a testers,I am wondering how do we test this feature with complex and variety of inputs ",
-            "example_apps": [
-                "GoogleMeet"
-            ]
-        },
-        {
-            "type": "open-question",
-            "question": "#Whatsapp, I wonder how do you test data sync between web and mobile app for the same account and to what accuracy can it be synced",
-            "example_apps": [
-                "Whatsapp",
-                "Facebook"
-            ]
         }
     ]
 }
