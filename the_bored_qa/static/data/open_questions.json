@@ -1,6 +1,5 @@
 {
-    "challenges": [
-        {
+    "challenges": [{
             "type": "open-question",
             "question": "How do you test the emoticons are displayed across different platforms correctly?",
             "example_apps": [
@@ -86,11 +85,25 @@
         },
         {
             "type": "open-question",
-            "question": "How are the messages ordered in a group chat? messages first sent to the application server are listed first? messages recieved at the server are listed first?",
+            "question": "How are the messages ordered in a group chat? messages first sent to the application server are listed first? messages received at the server are listed first?",
             "example_apps": [
                 "Skype",
                 "Slack",
                 "MS Teams"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "I liked the utility future bug predictor and usage of machine learning in predicting bugs. How do you test the feature of predicting the bugs such as there will be 5 bugs in next release?",
+            "example_apps": [
+                "Atlassian"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "@linkedin, I like the feature views of your post, to know how many views you have received, I was wondering how do you test the integration of this feature with external sources such blogs, tweeter etc..?",
+            "example_apps": [
+                "Linkedin"
             ]
         },
         {
@@ -112,11 +125,77 @@
         },
         {
             "type": "open-question",
-            "question": "Google Earth has so many features. How do you test view/zoom location/image feature ?",
+            "question": "Social media apps provide many face filters and lenses. How do we go about testing these?",
+            "example_apps": [
+                "Snapchat",
+                "Instagram",
+                "Facebook"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How does one test the smart draw features like eraser and the limit of branching in mindmaps feature, in remote whiteboards?",
+            "example_apps": [
+                "Miro"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "I regularly use #GoogleMeet.Recently I have used the Turn-on Captions feature How to see its ability to capture some of the things as words even though we spell out letters e.g my company name QxF2. As a tester, I am wondering how do we test this feature with complex and variety of inputs ?",
+            "example_apps": [
+                "GoogleMeet"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "When you create overview videos, how do you know to pick the relevant photos (For example, it ignores document images, blurred images etc.)",
+            "example_apps": [
+                "Google Photos"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "#Whatsapp, I wonder how do you test data sync between web and mobile app for the same account and to what accuracy can it be synced ?",
+            "example_apps": [
+                "Whatsapp",
+                "Facebook"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How do you test a feature in which the way VR controller handles the sensors and differentiates movement, speed.",
+            "example_apps": [
+                "Oculus Rift"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How do you test that the suggested videos are relevant. Can it be done in an automated way?",
+            "example_apps": [
+                "YouTube"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "How do you test the words when pronunciation is different for other regions?",
             "example_apps": [
                 "Google",
-                "Earth"
-                            ]
+                "Google voice search"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "how do you track sleep? what is the technology you are using?",
+            "example_apps": [
+                "Fitbit"
+            ]
+        },
+        {
+            "type": "open-question",
+            "question": "Google Earth has so many features. How do you test view/zoom location/image feature ?",
+            "example_apps": [
+                "Google Earth"
+            ]
         }
     ]
 }
