@@ -85,7 +85,7 @@
         },
         {
             "type": "open-question",
-            "question": "How are the messages ordered in a group chat? messages first sent to the application server are listed first? messages recieved at the server are listed first?",
+            "question": "How are the messages ordered in a group chat? messages first sent to the application server are listed first? messages received at the server are listed first?",
             "example_apps": [
                 "Skype",
                 "Slack",
@@ -94,14 +94,14 @@
         },
         {
             "type": "open-question",
-            "question": "I liked the utility future bug predictor and usage of machine learning in predicting bug. How do you test the feature of predicting the bugs such as there will be 5 bugs in next release.",
+            "question": "I liked the utility future bug predictor and usage of machine learning in predicting bugs. How do you test the feature of predicting the bugs such as there will be 5 bugs in next release?",
             "example_apps": [
                 "Atlassian"
             ]
         },
         {
             "type": "open-question",
-            "question": "@linkedin,I like the feature views of your post, to know how many views you have received, I was wondering how do you test the integration of this feature with external sources such blogs, tweeter etc..?",
+            "question": "@linkedin, I like the feature views of your post, to know how many views you have received, I was wondering how do you test the integration of this feature with external sources such blogs, tweeter etc..?",
             "example_apps": [
                 "Linkedin"
             ]
