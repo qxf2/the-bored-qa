@@ -189,6 +189,13 @@
             "example_apps": [
                 "Fitbit"
             ]
+        },
+        {
+            "type": "open-question",
+            "question": "Google Earth has so many features. How do you test view/zoom location/image feature ?",
+            "example_apps": [
+                "Google Earth"
+            ]
         }
     ]
 }
