@@ -182,6 +182,13 @@
                 "Google",
                 "Google voice search"
             ]
+        },
+        {
+            "type": "open-question",
+            "question": "how do you track sleep? what is the technology you are using?",
+            "example_apps": [
+                "Fitbit"
+            ]
         }
     ]
 }
